@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width">
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="screener">
+            <div id="screener-top">
+                <div id="memory-function" class="functions-display">M</div>
+                <div id="second-functions-button" class="functions-display">2ndF</div>
+                <div id="unit-of-measurement">
+                    <div id="deg" class="measurement-functions-display">DEG</div>
+                    <div id="rad" class="measurement-functions-display">RAD</div>
+                    <div id="grad" class="measurement-functions-display">GRAD</div>
+                </div>
+                <div id="numeral-systems">
+                    <div class="numeral-systems-functions-display">OCT</div>
+                    <div class="numeral-systems-functions-display">BIN</div>
+                    <div class="numeral-systems-functions-display">HEX</div>
+                </div>
+            </div>
+            <div id="screener-bottom">
+                <div id="screener-numbers"></div>
+                <div id="screener-operator"></div>
+            </div>
+        </div>
+        <div id="buttons-first">
+            <div>
+                <button id="second-function" class="option-buttons" value="" name="second-function">2ndF</button>
+            </div>
+            <div class="logo">Scientific Calculator by Stoki</div>
+            <div id="clear-div">
+                <button id="clear" class="option-buttons" value="" name="clear">Clear</button>
+            </div>
+        </div>
+        <div id="buttons-second">
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function"></div>
+                <button id="button-drg" class="function-button buttons-second-class" value="DRG" name="drg">DRG</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function"></div>
+                <button id="operator-memoryread" class="number primer-operator buttons-second-class" value="RM" name="memoryread">RM</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function"></div>
+                <button id="operator-memoryplus" class="number primer-operator buttons-second-class" value="M+" name="memoryplus">M+</button>
+            </div>
+            <break></break>
+            <div class="second-function-boxes">
+                <div id="operator-sinus-negat" class="buttons-second-class-sec-function">sin<sup>-1</sup></div>
+                <button id="operator-sinus" class="operator primer-operator buttons-second-class" value="sin" name="sin">sin</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="operator-cosinus-negat" class="buttons-second-class-sec-function">cos<sup>-1</sup></div>
+                <button id="operator-cosinus" class="operator primer-operator buttons-second-class" value="cos" name="cos">cos</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="operator-tangens-negat" class="buttons-second-class-sec-function">tan<sup>-1</sup></div>
+                <button id="operator-tangens" class="operator primer-operator buttons-second-class" value="tan" name="tan">tan</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function"></div>
+                <button id="operator-logaritmus" class="operator primer-operator buttons-second-class" value="log" name="logaritmus">log<sub>a</sub>b</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function"></div>
+                <button id="operator-factorial" class="operator primer-operator buttons-second-class" value="n!" name="factorial">n!</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function"></div>
+                <button id="operator-nth-power" class="operator primer-operator buttons-second-class" value="x<sup>y</sup>" name="nthpower">x<sup>y</sup></button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function"></div>
+                <button id="operator-nth-evolution" class="operator primer-operator buttons-second-class" value="&#8730;" name="nthevolution">x&#8730;y</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="tenth-power" class="buttons-second-class-sec-function">10<sup>x</sup></div>
+                <button id="operator-square" class="operator primer-operator buttons-second-class" value="x<sup>2</sup>" name="square">x<sup>2</sup></button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="operator-reciprical" class="buttons-second-class-sec-function">1/x</div>
+                <button id="operator-sqrt" class="operator primer-operator buttons-second-class" value="&#8730;" name="sqrt">&#8730;</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function"></div>
+                <button id="number-pi" class="number buttons-second-class" value="PI" name="pi">&#x03C0;</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function">e<sup>x</sup></div>
+                <button id="number-euler" class="number buttons-second-class" value="e" name="euler">e</button>
+            </div>
+            <div class="second-function-boxes">
+                <div id="" class="buttons-second-class-sec-function"></div>
+                <button id="number-backspace" class="number buttons-second-class" value="backspace" name="backspace">&#8592;</button>
+            </div>
+        </div>
+        <div id="buttons-third">
+            <div id="buttons-third-part-first">
+                <div id="buttons-numbers">
+                    <button id="number-seven" class="number number-class" value="7" name="number">7</button>
+                    <button id="number-eight" class="number number-class" value="8" name="number">8</button>
+                    <button id="number-nine" class="number number-class" value="9" name="number">9</button>
+                    <button id="number-four" class="number number-class" value="4" name="number">4</button>
+                    <button id="number-five" class="number number-class" value="5" name="number">5</button>
+                    <button id="number-six" class="number number-class" value="6" name="number">6</button>
+                    <button id="number-one" class="number number-class" value="1" name="number">1</button>
+                    <button id="number-two" class="number number-class" value="2" name="number">2</button>
+                    <button id="number-three" class="number number-class" value="3" name="number">3</button>
+                    <button id="number-zero" class="number number-class" value="0" name="number">0</button>
+                </div>
+                <div id="button-decimalpoint">
+                    <button id="decimal-point" class="number number-class" value="." name="number">
+                        .
+                    </button>
+                </div>
+                <div id="button-positive-negative">
+                    <button id="negative" class="number number-class" value="-" name="number">
+                        +/-
+                    </button>
+                </div>
+            </div>
+            <div id="buttons-third-part-second">
+                <div id="buttons-operator">
+                    <button id="operator-multiplication" class="operator operator-class" value="&lowast;" name="multiplication">*</button>
+                    <button id="operator-division" class="operator operator-class" value="÷" name="division">÷</button>
+                    <button id="operator-addition" class="operator operator-class" value="+" name="addition">+</button>
+                    <button id="operator-subtraction" class="operator operator-class" value="-" name="subtraction">-</button>
+                </div>
+                <div id="buttons-equial">
+                    <button id="operator-equial" class="equial" value="" name="equial">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
